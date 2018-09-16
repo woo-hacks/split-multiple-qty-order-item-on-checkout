@@ -68,7 +68,9 @@ class Split_Multiple_Qty_Order_Item_On_Checkout {
 						'total'        => $values['line_total'] / $qty,
 						'subtotal_tax' => $values['line_subtotal_tax'] / $qty,
 						'total_tax'    => $values['line_tax'] / $qty,
-						// 'taxes'     => $values['line_tax_data'],    //for demo this was not needed enable and recalculate if you need it.
+						// phpcs:disable Squiz.PHP.CommentedOutCode.Found
+						// 'taxes'     => $values['line_tax_data'],  // I have not handled taxes calculation in this demo, you need to calculate taxes and pass it as array.
+						// phpcs:enable
 					)
 				);
 
