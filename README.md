@@ -1,5 +1,6 @@
 <h1> HACK #3 - Split product with multiple qty in cart into seperate order items after order is placed.</h1>
 
+[![Build Status](https://travis-ci.com/woo-hacks/split-multiple-qty-order-item-on-checkout.svg?branch=master)](https://travis-ci.com/woo-hacks/split-multiple-qty-order-item-on-checkout)
 
 <p><b>Check the plugin code for usage.</b></p>
 
